@@ -5,7 +5,7 @@ import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 import Movie from './Movie';
 import 'antd/dist/antd.css';
 import styles from '../styles/Home.module.css';
-const MOVIES_URL = "http://localhost:3000/movies";
+const MOVIES_URL = "https://my-movies-tau.vercel.app/movies";
 const IMG_URL_BASE = "https://image.tmdb.org/t/p/w500";
 
 function Home() {
